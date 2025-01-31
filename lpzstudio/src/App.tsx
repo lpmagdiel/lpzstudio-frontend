@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import { NavBar } from './components/NavBar'
 
@@ -70,7 +69,7 @@ function App() {
           <form action="#" method="post" className="animate__animated animate__fadeInUp">
             <input type="text" name="nombre" placeholder="Nombre" required />
             <input type="email" name="email" placeholder="Correo electrónico" required />
-            <textarea name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+            <textarea name="mensaje" placeholder="Mensaje" rows={5} required></textarea>
             <button type="submit" className="btn">Enviar Mensaje</button>
           </form>
         </div>
