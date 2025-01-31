@@ -1,0 +1,33 @@
+/* Header */
+header {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  header .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    transition: color 0.3s ease;
+    font-size: 14px;
+  }
+  
+  header nav ul li a:hover {
+    color: #FFBD4A; /* Nuevo color de énfasis en hover */
+  }
