@@ -1,6 +1,5 @@
 .infobox {
   padding: 1.5rem;
-  min-width: max-content;
   height: fit-content;
   border: 2px solid #2b2b2b;
   display: grid;
