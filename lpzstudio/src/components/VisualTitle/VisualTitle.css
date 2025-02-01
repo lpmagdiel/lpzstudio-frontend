@@ -1,0 +1,43 @@
+.visualtitle {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+}
+.visualtitle::before{
+    content: '';
+    width: 100%;
+    border-bottom: 3px solid #7e1818;
+    position: absolute;
+    z-index: 0;
+}
+.visualtitle-text{
+    font-family: 'Righteous';
+    border: 3px solid #7e1818;
+    background-color: #b22222;
+    padding: 1rem;
+    height: max-content;
+    width: max-content;
+    margin: 20px;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.8s;
+}
+.visualtitle-animate{
+    animation-name: slide-left;
+    animation-duration: 1.8s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-left {
+    from{
+        left: 100%;
+        opacity: 0;
+    }
+    to{
+        left: 0%;
+        opacity: 1;
+    }
+}

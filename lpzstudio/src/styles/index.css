@@ -1,12 +1,4 @@
 /* CSS - Flexbox, Grid y Centrado */
-@font-face {
-  font-family: "Righteous";
-  src: url("fonts/Righteous-Regular.ttf");
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("fonts/Raleway-Regular.ttf");
-}
 *{
   padding: 0;
   margin: 0;
@@ -18,6 +10,9 @@
   display: flex;
 }
 
+.pd-1{
+  padding: 1rem;
+}
 .flex-row {
   flex-direction: row;
 }
@@ -98,21 +93,14 @@
 .grid-cols-4 {
   grid-template-columns: repeat(4, 1fr);
 }
-
-.grid-gap-1 {
-  gap: 0.5rem;
+.grid-auto-cols{
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: min-content;
 }
-
-.grid-gap-2 {
-  gap: 1rem;
-}
-
-.grid-gap-3 {
-  gap: 1.5rem;
-}
-
-.grid-gap-4 {
-  gap: 2rem;
+@media (max-width: 767px) {
+  .grid-auto-cols {
+    grid-template-columns: repeat(1, 1fr); /* 1 columna */
+  }
 }
 
 /* Centrado */

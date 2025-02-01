@@ -1,0 +1,1 @@
+export { VisualTitle } from './VisualTitle';
