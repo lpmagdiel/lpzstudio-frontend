@@ -1,12 +1,13 @@
 @font-face {
     font-family: "Righteous";
-    src: url("fonts/Righteous-Regular.ttf");
+    src: local("fonts/Righteous-Regular.ttf"),url("fonts/Righteous-Regular.ttf");
+
   }
   @font-face {
     font-family: "Raleway";
-    src: url("fonts/Raleway-Regular.ttf");
+    src: local("fonts/Raleway-Regular.ttf"),url("fonts/Raleway-Regular.ttf");
   }
   @font-face {
     font-family: "Caveat";
-    src: url("fonts/Caveat-Regular.ttf");
+    src: local("fonts/Caveat-Regular.ttf"),url("fonts/Caveat-Regular.ttf");
   }
