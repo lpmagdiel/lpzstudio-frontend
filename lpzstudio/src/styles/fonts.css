@@ -1,13 +1,18 @@
-@font-face {
+/*@font-face {
     font-family: "Righteous";
     src: local("./fonts/Righteous-Regular.ttf"),url("fonts/Righteous-Regular.ttf") format("truetype");
 
   }
+    */
+  @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Raleway&family=Righteous&display=swap');
+/*
   @font-face {
     font-family: "Raleway";
     src: local("./fonts/Raleway-Regular.ttf"),url("fonts/Raleway-Regular.ttf") format("truetype");
   }
+
   @font-face {
     font-family: "Caveat";
     src: local("./fonts/Caveat-Regular.ttf"),url("fonts/Caveat-Regular.ttf") format("truetype");
   }
+    */
