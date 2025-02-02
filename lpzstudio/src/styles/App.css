@@ -17,4 +17,60 @@ header{
   h1{
     font-size: 1.1rem;
   }
+  footer{
+    flex-direction: column;
+  }
+}
+/* Footer */
+footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer .logo {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+footer .footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+footer .footer-links a {
+  color: #fff;
+  font-size: 14px;
+}
+
+footer .footer-links a:hover {
+  color: #FFBD4A; /* Nuevo color de énfasis en hover */
+}
+
+footer .redes-sociales {
+  margin-bottom: 15px;
+}
+
+footer .redes-sociales a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer .redes-sociales a:hover {
+  color: #FFBD4A; /* Nuevo color de énfasis en hover */
+}
+
+footer .derechos {
+  font-size: 12px;
+  color: #888;
 }

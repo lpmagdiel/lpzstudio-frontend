@@ -22,8 +22,6 @@
     margin: 20px;
     position: relative;
     z-index: 1;
-    opacity: 0;
-    transition: 0.8s;
 }
 .visualtitle-animate{
     animation-name: slide-left;
@@ -33,11 +31,9 @@
 
 @keyframes slide-left {
     from{
-        left: 100%;
-        opacity: 0;
+        left: -50%;
     }
     to{
         left: 0%;
-        opacity: 1;
     }
 }

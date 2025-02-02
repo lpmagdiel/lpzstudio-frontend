@@ -2,6 +2,7 @@ import './styles/App.css'
 import { NavBar } from './components/NavBar'
 import { VisualTitle } from './components/VisualTitle'
 import { InfoBox } from './components/InfoBox'
+import { ContactForm } from './components/ContactForm'
 
 function App() {
   return (
@@ -23,6 +24,20 @@ function App() {
       <VisualTitle text='Proyectos' />
       <VisualTitle text='Blog' />
       <VisualTitle text='Contacto' />
+      <ContactForm />
+      <footer>
+        <div className="container">
+          <img src='./logo/icon64.png'/>
+        </div>
+        <div className="container">
+          <div className="redes-sociales animate__animated animate__fadeIn">
+            <a href="#" target="_blank">GitHub</a>
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Twitter</a>
+          </div>
+          <p className="derechos animate__animated animate__fadeIn">© 2025 LPZStudio. Todos los derechos reservados.</p>
+        </div>
+      </footer>
     </div>
   )
 }
