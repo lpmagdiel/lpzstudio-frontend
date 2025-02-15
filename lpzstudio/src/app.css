@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Pixelify+Sans&family=Raleway&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inconsolata", serif;
+}
+#app{
+  background-image: radial-gradient(circle, #0c0c0d, #0d0d10, #0d0e12, #0e0f15, #0e1017, #0c1017, #0b1017, #091017, #060f14, #060e10, #070c0c, #080909);
+}
+a{
+text-decoration: none;
+}
+h1,h2,h3{
+  color: #ffffff;
+}
+p{
+  font-family: "Raleway", serif;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: min-content;
+  gap: 1rem;
+}
+.pd1{
+  padding: 1rem;
+}
+.space{
+  width: 100%;
+  height: 40px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.iflex{
+  display: inline-flex;
+  gap: 1rem;
+}
