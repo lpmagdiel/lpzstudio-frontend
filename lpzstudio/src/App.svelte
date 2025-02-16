@@ -45,6 +45,7 @@
   footer .brand{
     border-right: 4px solid #b22222;
     padding: 5px;
+    padding-right: 1em;
   }
   .footer-social{
     padding: 10px;

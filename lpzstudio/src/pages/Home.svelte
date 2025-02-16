@@ -1,8 +1,6 @@
 <script>
     import ContactForm from "../lib/ContactForm.svelte";
     import InfoBox from "../lib/InfoBox.svelte";
-
-    import SliderTitle from "../lib/SliderTitle.svelte";
 </script>
 
 <header>
@@ -161,7 +159,7 @@
     header {
         width: 100%;
         height: 90vh;
-        background-image: url("./bg.jpg");
+        background-image: url("bg.jpg");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
