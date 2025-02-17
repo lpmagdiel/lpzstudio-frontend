@@ -1,6 +1,7 @@
 <script>
     import ContactForm from "../lib/ContactForm.svelte";
     import InfoBox from "../lib/InfoBox.svelte";
+    import bg from "../assets/bg.jpg";
 </script>
 
 <header>
@@ -159,7 +160,7 @@
     header {
         width: 100%;
         height: 90vh;
-        background-image: url("bg.jpg");
+        background: url("bg.png");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -248,20 +249,7 @@
             opacity: 1;
         }
     }
-
-    .fade-in {
-        animation: fadeIn 1s ease-out;
-    }
-    .slide-in-left {
-        animation: slideInLeft 0.8s ease-out;
-    }
-    .slide-in-right {
-        animation: slideInLeft 0.8s ease-out reverse;
-    }
     .pop-in {
         animation: popIn 0.6s ease-out;
-    }
-    .jump-in {
-        animation: popIn 0.8s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     }
 </style>
