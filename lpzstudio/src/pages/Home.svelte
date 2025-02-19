@@ -1,7 +1,6 @@
 <script>
     import ContactForm from "../lib/ContactForm.svelte";
     import InfoBox from "../lib/InfoBox.svelte";
-    import bg from "../assets/bg.jpg";
 </script>
 
 <header>
